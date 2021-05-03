@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="765.0" prefWidth="750.0" styleClass="results-vBox" stylesheets="@main.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.lode_rp.ResultsController">
+   <children>
+      <Label fx:id="label_header" alignment="CENTER" contentDisplay="CENTER" prefHeight="664.0" prefWidth="750.0" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Arial Bold" size="45.0" />
+         </font>
+      </Label>
+      <HBox alignment="BOTTOM_CENTER" prefHeight="700.0" prefWidth="750.0">
+         <children>
+            <Button fx:id="btn_submitResults" alignment="BOTTOM_RIGHT" contentDisplay="BOTTOM" mnemonicParsing="false" onMouseClicked="#resultsSubmit" text="OK">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+         <padding>
+            <Insets bottom="100.0" />
+         </padding>
+      </HBox>
+   </children>
+</VBox>
